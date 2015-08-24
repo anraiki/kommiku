@@ -1,0 +1,834 @@
+# Translation of the WordPress plugin Kommiku Viewer 2.1.1 by Henry Tran.
+# Copyright (C) 2010 Henry Tran
+# This file is distributed under the same license as the Kommiku Viewer package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2010.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Kommiku Viewer 2.1.1\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/kommiku\n"
+"POT-Creation-Date: 2010-08-08 19:17+0000\n"
+"PO-Revision-Date: 2010-08-08 12:18-0800\n"
+"Last-Translator: Henry <anri.tora@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Español\n"
+"X-Poedit-Country: México\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#: admin/category.php:72
+#: admin/category_edit.php:26
+msgid "Category List"
+msgstr "Lista de Categor&iacute;as"
+
+#: admin/category.php:80
+msgid "Name a Category"
+msgstr "Nombra una Categor&iacute;a"
+
+#: admin/category.php:90
+msgid "Category Name:"
+msgstr "Nombre de la Categor&iacute;a:"
+
+#: admin/category.php:94
+msgid "Category Slug:"
+msgstr "Ficha de la Categor&iacute;a:"
+
+#: admin/category.php:98
+#: admin/list_chapter.php:62
+#: admin/list_chapter.php:135
+#: admin/list_page.php:94
+#: admin/list_series.php:42
+msgid "Summary:"
+msgstr "Resumen:"
+
+#: admin/category.php:118
+#: admin/list_series.php:66
+msgid "Go to a Letter"
+msgstr "Ir a una Letra"
+
+#: admin/category_edit.php:7
+#: admin/list_chapter.php:13
+#: admin/list_page.php:16
+#: admin/list_page_create.php:40
+msgid "Don't Do it!"
+msgstr "&iexcl;No lo hagas!"
+
+#: admin/category_edit.php:10
+#: admin/list_chapter.php:16
+#: admin/list_page.php:19
+#: admin/list_page_create.php:43
+msgid "It's a TRAP!"
+msgstr "&iexcl;Es una TRAMPA!"
+
+#: admin/category_edit.php:13
+#: admin/list_chapter.php:19
+#: admin/list_page.php:22
+#: admin/list_page_create.php:46
+msgid "Why???!"
+msgstr "&iexcl;&iquest;&iquest;&iquest;Por qué???!"
+
+#: admin/category_edit.php:16
+#: admin/list_chapter.php:22
+#: admin/list_page.php:25
+#: admin/list_page_create.php:49
+msgid "But I am your friend :("
+msgstr "Pero yo soy tu amigo :("
+
+#: admin/category_edit.php:39
+msgid "Update?"
+msgstr "&iquest;Actualizar?"
+
+#: admin/category_edit.php:44
+#: admin/list_page_create.php:70
+msgid "Update"
+msgstr "Actualizar"
+
+#: admin/category_edit.php:57
+msgid "Category Name"
+msgstr "Nombre de la Categor&iacute;a"
+
+#: admin/category_edit.php:60
+msgid "Name"
+msgstr "Nombre"
+
+#: admin/category_edit.php:69
+#: admin/list_page_create.php:144
+#: admin/settings.php:103
+msgid "Permalink:"
+msgstr "Enlace Permanente:"
+
+#: admin/category_edit.php:69
+msgid "category"
+msgstr "categor&iacute;a"
+
+#: admin/category_edit.php:80
+#: admin/category_edit.php:83
+msgid "Description"
+msgstr "Descripci&oacute;n"
+
+#: admin/category_edit.php:85
+msgid "Add a description of the Category"
+msgstr "Agrega una descripci&oacute;n de la Categor&iacute;a"
+
+#: admin/category_edit.php:103
+msgid "Delete this Category"
+msgstr "Borrar esta Categor&iacute;a"
+
+#: admin/delete.php:56
+msgid "Delete?! Are you sure?"
+msgstr "&iexcl;&iquest;Borrar?! &iquest;Est&aacute;s seguro?"
+
+#: admin/delete.php:65
+#: admin/delete.php:79
+msgid "Are you sure you want to delete this Page?"
+msgstr "&iquest;Est&aacute;s seguro de querer borrar esta P&aacute;gina?"
+
+#: admin/delete.php:69
+msgid "Are you sure you want to delete this Chapter?"
+msgstr "&iquest;Est&aacute;s seguro de querer borrar este Cap&iacute;tulo?"
+
+#: admin/delete.php:70
+msgid "All <strong>Pages</strong> within the Chapters will all be deleted"
+msgstr "Todas las <strong>P&aacute;ginas</strong> dentro de los Cap&iacute;tulos ser&aacute;n borradas"
+
+#: admin/delete.php:74
+msgid "Are you sure you want to delete this Series?"
+msgstr "&iquest;Est&aacute;s seguro de querer borrar esta Serie?"
+
+#: admin/delete.php:75
+msgid "The <strong>Series</strong>, and <strong>ALL it's Content</strong> will all be deleted"
+msgstr "La <strong>Serie</strong> y <strong>TODO su contenido</strong> ser&aacute; borrado"
+
+#: admin/delete.php:88
+msgid "The Delete Button"
+msgstr "El Bot&oacute;n de Borrado"
+
+#: admin/delete.php:94
+msgid "Delete It!"
+msgstr "&iexcl;B&oacute;rralo!"
+
+#: admin/list_chapter.php:31
+#: admin/list_page.php:46
+#: admin/list_page_create.php:61
+#: admin/list_series.php:17
+msgid "Series Listing"
+msgstr "Listado de Series"
+
+#: admin/list_chapter.php:44
+msgid "Create a Chapter"
+msgstr "Crear un Cap&iacute;tulo"
+
+#: admin/list_chapter.php:50
+#: admin/list_chapter.php:92
+#: admin/list_page.php:82
+msgid "Chapter Name:"
+msgstr "Nombre del Cap&iacute;tulo:"
+
+#: admin/list_chapter.php:54
+#: admin/list_chapter.php:96
+#: admin/list_page.php:86
+msgid "Chapter #:"
+msgstr "Cap&iacute;tulo #:"
+
+#: admin/list_chapter.php:58
+msgid "Chapter Slug:"
+msgstr "Ficha del Cap&iacute;tulo:"
+
+#: admin/list_chapter.php:68
+msgid "Create Chapter"
+msgstr "Crear Cap&iacute;tulo"
+
+#: admin/list_chapter.php:83
+msgid "Dump a Chapter"
+msgstr "Subir un Cap&iacute;tulo"
+
+#: admin/list_chapter.php:100
+msgid "Slug:"
+msgstr "Ficha:"
+
+#: admin/list_chapter.php:121
+msgid "Series Detail"
+msgstr "Detalles de la Serie"
+
+#: admin/list_chapter.php:127
+#: admin/list_series.php:34
+msgid "Series Name:"
+msgstr "Nombre de la Serie:"
+
+#: admin/list_chapter.php:131
+#: admin/list_series.php:38
+msgid "Series Slug:"
+msgstr "Ficha de la Serie:"
+
+#: admin/list_chapter.php:140
+msgid "Author:"
+msgstr "Autor:"
+
+#: admin/list_chapter.php:144
+msgid "Illustrator:"
+msgstr "Artista:"
+
+#: admin/list_chapter.php:149
+msgid "Date Created:"
+msgstr "Fecha de Creaci&oacute;n:"
+
+#: admin/list_chapter.php:153
+msgid "Other Names:"
+msgstr "Otros Nombres:"
+
+#: admin/list_chapter.php:157
+msgid "Categories:"
+msgstr "Categor&iacute;as:"
+
+#: admin/list_chapter.php:161
+msgid "Read Direction:"
+msgstr "Direcci&oacute;n de Lectura:"
+
+#: admin/list_chapter.php:163
+msgid "Left to Right"
+msgstr "Izquierda a Derecha"
+
+#: admin/list_chapter.php:164
+msgid "Right to Left"
+msgstr "Derecha a Izquierda"
+
+#: admin/list_chapter.php:165
+msgid "Top to Bottom"
+msgstr "Arriba a Abajo"
+
+#: admin/list_chapter.php:169
+msgid "Status: "
+msgstr "Estado:"
+
+#: admin/list_chapter.php:171
+#: admin/list_chapter.php:186
+msgid "Unknown"
+msgstr "Desconocido"
+
+#: admin/list_chapter.php:172
+msgid "Ongoing"
+msgstr "En Proceso"
+
+#: admin/list_chapter.php:173
+msgid "On-Hold"
+msgstr "Pausado"
+
+#: admin/list_chapter.php:174
+msgid "Dropped"
+msgstr "Abandonado"
+
+#: admin/list_chapter.php:175
+msgid "Complete"
+msgstr "Completado"
+
+#: admin/list_chapter.php:179
+msgid "Story Type:"
+msgstr "Tipo de Historia:"
+
+#: admin/list_chapter.php:181
+msgid "(_blank)"
+msgstr "(_blank)"
+
+#: admin/list_chapter.php:182
+msgid "Manga"
+msgstr "Manga"
+
+#: admin/list_chapter.php:183
+msgid "Manhwa"
+msgstr "Manhwa"
+
+#: admin/list_chapter.php:184
+msgid "Manhua"
+msgstr "Manhua"
+
+#: admin/list_chapter.php:185
+msgid "Comic"
+msgstr "Comic"
+
+#: admin/list_chapter.php:187
+msgid "Novel"
+msgstr "Novela"
+
+#: admin/list_chapter.php:193
+msgid "Age Rating:"
+msgstr "Clasificaci&oacute;n de Edad:"
+
+#: admin/list_chapter.php:197
+msgid "Series Book Cover:"
+msgstr "Portada de la Serie:"
+
+#: admin/list_chapter.php:220
+msgid "Delete Series!"
+msgstr "&iexcl;Borrar Serie!"
+
+#: admin/list_chapter.php:235
+msgid "Chapter Listings"
+msgstr "Listado de Cap&iacute;tulos"
+
+#: admin/list_chapter.php:247
+msgid "There are no chapters in this series."
+msgstr "No hay cap&iacute;tulos en esta serie."
+
+#: admin/list_page.php:34
+#, fuzzy
+msgid "Chapter"
+msgstr "Cap&iacute;tulo:"
+
+#: admin/list_page.php:54
+#: admin/list_page.php:60
+msgid "Create a Page"
+msgstr "Crear una P&aacute;gina"
+
+#: admin/list_page.php:75
+msgid "Chapter Detail"
+msgstr "Detalles del Cap&iacute;tulo"
+
+#: admin/list_page.php:90
+msgid "Chapter Slug"
+msgstr "Ficha del Cap&iacute;tulo"
+
+#: admin/list_page.php:99
+msgid "Scanlator:"
+msgstr "Scanlator:"
+
+#: admin/list_page.php:103
+msgid "Scanlator Slug:"
+msgstr "Ficha del Scanlator:"
+
+#: admin/list_page.php:111
+msgid "Volume:"
+msgstr "Volumen:"
+
+#: admin/list_page.php:117
+msgid "Update Chapter"
+msgstr "Actualizar Cap&iacute;tulo"
+
+#: admin/list_page.php:134
+msgid "Delete"
+msgstr "Borrar"
+
+#: admin/list_page.php:147
+msgid "Page Listing"
+msgstr "Listado de P&aacute;ginas"
+
+#: admin/list_page.php:161
+msgid "There are no page in this Chapter."
+msgstr "No hay p&aacute;ginas en este Cap&iacute;tulo"
+
+#: admin/list_page_create.php:27
+msgid "Publish"
+msgstr "Publicar"
+
+#: admin/list_page_create.php:78
+msgid "Publishing"
+msgstr "Publicaci&oacute;n"
+
+#: admin/list_page_create.php:86
+msgid "Series:"
+msgstr "Serie:"
+
+#: admin/list_page_create.php:92
+msgid "Chapter:"
+msgstr "Cap&iacute;tulo:"
+
+#: admin/list_page_create.php:98
+msgid "Page #:"
+msgstr "P&aacute;gina #:"
+
+#: admin/list_page_create.php:119
+msgid "Delete Page!"
+msgstr "&iexcl;Borrar P&aacute;gina!"
+
+#: admin/list_page_create.php:132
+#: admin/list_page_create.php:135
+msgid "Title"
+msgstr "T&iacute;tulo"
+
+#: admin/list_page_create.php:156
+msgid "The Page"
+msgstr "La P&aacute;gina"
+
+#: admin/list_page_create.php:165
+msgid "Story"
+msgstr "Historia"
+
+#: admin/list_page_create.php:168
+msgid "story"
+msgstr "historia"
+
+#: admin/list_page_create.php:170
+msgid "Add a comment, description, or summary."
+msgstr "Agrega un comentario, descripci&oacute;n o resumen."
+
+#: admin/list_page_create.php:176
+msgid "Wordpress Post Connect"
+msgstr "Enlazar a Anuncio de Wordpress"
+
+#: admin/list_page_create.php:181
+msgid "Connect a Wordpress Post to this Page."
+msgstr "Conecta un Anuncio de Wordpress a esta P&aacute;gina."
+
+#: admin/list_series.php:25
+msgid "Create a Series"
+msgstr "Crear una Serie"
+
+#: admin/list_series.php:46
+msgid "Chapter-Less:"
+msgstr "Sin Cap&iacute;tulos:"
+
+#: admin/settings.php:29
+msgid "Kommiku Settings"
+msgstr "Configuraci&oacute;n de Kommiku"
+
+#: admin/settings.php:41
+#: admin/settings.php:44
+msgid "Upload Directory"
+msgstr "Directorio de Subida"
+
+#: admin/settings.php:46
+msgid "The directory where your comics will be uploaded to."
+msgstr "El directorio al cual tus comics ser&aacute;n subidos"
+
+#: admin/settings.php:46
+msgid "Your comics will be uploaded to: "
+msgstr "Tus comics ser&aacute;n subidos a:"
+
+#: admin/settings.php:46
+#: admin/settings.php:57
+msgid "* Do not name your Upload Directory and Permalink the Same name."
+msgstr "* No nombres tu Directorio de Subida y tu Enlace Permanente con el Mismo nombre."
+
+#: admin/settings.php:52
+#: admin/settings.php:55
+msgid "Permalink: Comic Base"
+msgstr "Enlace Permanente: Comic Base"
+
+#: admin/settings.php:57
+msgid "This is where you will view your comic."
+msgstr "Aqu&iacute; es donde t&uacute; ver&aacute;s tu comic."
+
+#: admin/settings.php:57
+msgid "Your current Permalinks to your Comic is:"
+msgstr "Tu Enlace Permanente actual a tu comic es:"
+
+#: admin/settings.php:57
+msgid "Slug"
+msgstr "Ficha"
+
+#: admin/settings.php:57
+msgid "* Blank  base-slug may be buggy."
+msgstr "* Ficha base en blanco puede generar error."
+
+#: admin/settings.php:63
+msgid "Directory Index URL"
+msgstr "URL del Directorio &Iacute;ndice"
+
+#: admin/settings.php:66
+msgid "Url to Directory:"
+msgstr "URL al Directorio:"
+
+#: admin/settings.php:68
+msgid "Your current Permalinks to your Directory is:"
+msgstr "Tu Enlace Permanente actual a tu Directorio es:"
+
+#: admin/settings.php:69
+msgid "And:"
+msgstr "Y:"
+
+#: admin/settings.php:70
+msgid "* This is your Directory Listing. Make sure it isn't the same as the Permalink/Upload Directory."
+msgstr "* Este es tu Listado de Directorio. Aseg&uacute;rate de que no es el mismo que el de tu Enlace Permanente/Directorio de Subida."
+
+#: admin/settings.php:76
+msgid "Skin"
+msgstr "Plantilla"
+
+#: admin/settings.php:91
+msgid "The Skin or Theme for the Comic Reader."
+msgstr "La Plantilla o Tema para el Lector de Comics."
+
+#: admin/settings.php:98
+msgid "Scanlator and Authors"
+msgstr "Scanlator y Autores"
+
+#: admin/settings.php:101
+msgid "Scanlator Features:"
+msgstr "Caracter&iacute;sticas de Scanlator:"
+
+#: admin/settings.php:103
+msgid "Have multiple authors on your Kommiku?"
+msgstr "&iquest;Tener m&uacute;ltiples autores en tu Kommiku?"
+
+#: admin/settings.php:103
+msgid "This feature allows you to give proper credit to your authors."
+msgstr "Esta funci&oacute;n te permite dar sus respectivos cr&eacute;ditos a tus autores."
+
+#: admin/settings.php:103
+msgid "Your authors will also get a unique page about them."
+msgstr "Tus autores tambi&eacute;n tendr&aacute;n una p&aacute;gina exclusiva sobre ellos."
+
+#: admin/settings.php:104
+msgid "Enable this feature:"
+msgstr "Habilitar esta funci&oacute;n:"
+
+#: admin/settings.php:112
+msgid "One Story Mode"
+msgstr "Modo de Una Historia"
+
+#: admin/settings.php:115
+msgid "Main Story"
+msgstr "Historia Principal"
+
+#: admin/settings.php:117
+msgid "This will switch Kommiku into the \"One Story\" Mode."
+msgstr "Esto cambiar&aacute; a Kommiku al Modo \"Una Historia\"."
+
+#: admin/settings.php:117
+msgid "Type in the <strong>Main Story's slug</strong> to identify the Website's Main Story."
+msgstr "Escribe en la <strong>ficha de la Historia Principal</strong> para identificar la Historia Principal del Sitio."
+
+#: admin/settings.php:117
+msgid "The Main Story's slug will be replace by the \"Comic Base\" (See Above)"
+msgstr "La ficha de la Historia Principal ser&aacute; reemplazada por el \"Comic Base\" (Ver Anterior)"
+
+#: admin/settings.php:117
+msgid "All other stories will be hidden."
+msgstr "Todas las otras historias ser&aacute;n escondidas."
+
+#: admin/settings.php:117
+msgid "Example of Permalink:"
+msgstr "Ejemplo de Enlace Permanente:"
+
+#: admin/settings.php:117
+msgid "With Chapters:"
+msgstr "Con Cap&iacute;tulos:"
+
+#: admin/settings.php:117
+msgid "Chapterless:"
+msgstr "Sin Cap&iacute;tulos:"
+
+#: admin/settings.php:118
+msgid "Override the Index:"
+msgstr "Sustituir el &Iacute;ndice:"
+
+#: admin/settings.php:125
+msgid "Kommiku Api Key"
+msgstr "Llave API de Kommiku"
+
+#: admin/settings.php:128
+msgid "Key"
+msgstr "Llave"
+
+#: admin/settings.php:130
+msgid "Give yourself the special features with the Kommiku Api Key!"
+msgstr "&iexcl;Date las funciones especiales con la Llave API de Kommiku!"
+
+#: admin/settings.php:130
+msgid "Only given to special people... however."
+msgstr "S&oacute;lo dada a gente especial... sin embargo."
+
+#: kommiku.php:217
+#: kommiku.php:219
+msgid "Search Results for: "
+msgstr "Resultados de la B&uacute;squeda para:"
+
+#: kommiku.php:234
+msgid "Dead page is Dead."
+msgstr "La p&aacute;gina muerta est&aacute; Muerta."
+
+#: kommiku.php:237
+#: kommiku.php:238
+msgid "Category: "
+msgstr "Categor&iacute;a:"
+
+#: kommiku.php:240
+msgid "OMG! 404?! "
+msgstr "&iexcl;OMG! &iexcl;&iquest;404?!"
+
+#: kommiku.php:334
+msgid "Story Listing"
+msgstr "Listado de Historias"
+
+#: kommiku.php:374
+msgid "The Image could not be deleted (or it doesn't exist) but the record was deleted (or maybe it was already gone?)"
+msgstr "La Imagen no puede ser borrada (o no existe), pero el registro fue borrado (&iquest;o quiz&aacute;s ya se hab&iacute;a ido?)"
+
+#: kommiku.php:379
+msgid "The Page has been deleted"
+msgstr "La P&aacute;gina ha sido borrada"
+
+#: kommiku.php:390
+msgid "The Chapter has been deleted"
+msgstr "El Cap&iacute;tulo ha sido borrado"
+
+#: kommiku.php:404
+msgid "The Series has been deleted"
+msgstr "La Serie ha sido borrada"
+
+#: kommiku.php:450
+msgid "The scanlator name has already been taken.<br/>"
+msgstr "El nombre del scanlator ya ha sido tomado.<br/>"
+
+#: kommiku.php:451
+msgid "The scanlator slug has already been taken.<br/>"
+msgstr "La ficha del scanlator ya ha sido tomada.<br/>"
+
+#: kommiku.php:484
+msgid "The category name has already been taken.<br/>"
+msgstr "El nombre de la categor&iacute;a ya ha sido tomado.<br/>"
+
+#: kommiku.php:485
+msgid "The category slug has already been taken.<br/>"
+msgstr "La ficha de la categor&iacute;a ya ha sido tomada.<br/>"
+
+#: kommiku.php:486
+#, fuzzy
+msgid "The category title can not be empty<br/>"
+msgstr "El nombre de la categor&iacute;a ya ha sido tomado.<br/>"
+
+#: kommiku.php:573
+msgid "The Series has been successfully created"
+msgstr "La Serie ha sido creada con &eacute;xito"
+
+#: kommiku.php:593
+#, fuzzy
+msgid "The Series has been renamed.<br/>"
+msgstr "La Serie ha sido borrada"
+
+#: kommiku.php:596
+#, fuzzy
+msgid "The series could not be renamed: <br/>"
+msgstr "La ficha de la serie ya ha sido tomada.<br/>"
+
+#: kommiku.php:600
+#, fuzzy
+msgid "The Series has been updated.<br/>"
+msgstr "La Serie ha sido actualizada"
+
+#: kommiku.php:608
+msgid "The series name has already been taken.<br/>"
+msgstr "El nombre de la serie ya ha sido tomado.<br/>"
+
+#: kommiku.php:609
+msgid "The series slug has already been taken.<br/>"
+msgstr "La ficha de la serie ya ha sido tomada.<br/>"
+
+#: kommiku.php:673
+msgid "The Chapter has been successfully created"
+msgstr "El Cap&iacute;tulo ha sido creado con &eacute;xito"
+
+#: kommiku.php:676
+msgid "Could not create Chapter because the directory for this chapter already exist: "
+msgstr ""
+
+#: kommiku.php:680
+#, fuzzy
+msgid "The Chapter has been successfully updated"
+msgstr "El Cap&iacute;tulo ha sido creado con &eacute;xito"
+
+#: kommiku.php:690
+msgid "The Chapter number has already been taken.<br/>"
+msgstr "El n&uacute;mero del Cap&iacute;tulo ya ha sido tomado.<br/>"
+
+#: kommiku.php:691
+msgid "The Chapter number has to be in decimals or numbers.<br/>"
+msgstr "El n&uacute;mero del Cap&iacute;tulo tiene que estar en decimales o n&uacute;meros.<br/>"
+
+#: kommiku.php:692
+msgid "The \"Volume Input\" must be Numeric"
+msgstr "La \"Entrada del Volumen\" debe ser Num&eacute;rica"
+
+#: kommiku.php:807
+msgid "Error 1: Could not move file"
+msgstr "Error 1: No se puede mover el archivo"
+
+#: kommiku.php:810
+msgid "No file were uploaded. But a page was created."
+msgstr "Ning&uacute;n archivo fue subido. Pero una p&aacute;gina fue creada."
+
+#: kommiku.php:818
+msgid "The Image/Page has been updated"
+msgstr "La Imagen/P&aacute;gina ha sido actualizada"
+
+#: kommiku.php:825
+msgid " | Image moved!"
+msgstr "| &iexcl;Imagen movida!"
+
+#: kommiku.php:827
+msgid " | Image Failed!"
+msgstr "| &iexcl;Imagen Fallida!"
+
+#: kommiku.php:834
+msgid "<br/>No such Wordpress Post"
+msgstr "<br/>No existe tal Anuncio de Wordpress"
+
+#: kommiku.php:842
+msgid "The Page number has already been taken.<br/>"
+msgstr "El n&uacute;mero de P&aacute;gina ya ha sido tomado.<br/>"
+
+#: kommiku.php:843
+msgid "The Page number has to be in decimals or numbers.<br/>"
+msgstr "El n&uacute;mero de P&aacute;gina tiene que ser decimal o num&eacute;rico.<br/>"
+
+#: kommiku.php:844
+msgid "The Slug for the Page on this Chapter has already been taken"
+msgstr "La Ficha para la P&aacute;gina de este Cap&iacute;tulo ya ha sido tomado"
+
+#: kommiku.php:845
+msgid "There was no file to upload"
+msgstr "No hay archivo para subir"
+
+#: kommiku.php:846
+msgid "The file is too large"
+msgstr "El archivo es demasiado grande"
+
+#: kommiku.php:847
+msgid "The file couldn't be moved!? Please check permission on your folders"
+msgstr "&iexcl;&iquest;El archivo no puede ser mvido?! Por favor revisa los permisos de tu carpetas"
+
+#: kommiku.php:897
+#: kommiku.php:983
+msgid "A widget that lists the Stories under the Kommiku plugin."
+msgstr "Un widget que enlista las Historias del plugin Kommiku."
+
+#: kommiku.php:903
+msgid "Kommiku: Story Lister"
+msgstr "Kommiku: Lista de Historias"
+
+#: kommiku.php:962
+msgid "Example"
+msgstr "Ejemplo"
+
+#: kommiku.php:962
+msgid "John Doe"
+msgstr "John Doe"
+
+#: kommiku.php:967
+#: kommiku.php:1057
+msgid "Title:"
+msgstr "T&iacute;tulo:"
+
+#: kommiku.php:989
+msgid "Kommiku: Chapter Lister"
+msgstr "Kommiku: Lista de Cap&iacute;tulos"
+
+#: kommiku.php:1052
+msgid "Kommiku Chapter Updates"
+msgstr "Kommiku: Actualizaciones de Cap&iacute;tulos"
+
+#: kommiku.php:1061
+msgid "How many updates to show?"
+msgstr "&iquest;Cu&aacute;ntas actualizaciones a mostrar?"
+
+#: kommiku.php:1214
+msgid "The 'Upload Directory' you are trying to rename already exist."
+msgstr "El \"Directorio de Subida\" que est&aacute;s intentando renombrar ya existe."
+
+#: kommiku.php:1223
+msgid "Your skin has been updated"
+msgstr "Tu plantilla ha sido actualizada"
+
+#: kommiku.php:1227
+msgid "The skin does not exist"
+msgstr "La plantilla no existe"
+
+#: kommiku.php:1230
+msgid "Your Settings has been updated"
+msgstr "Tu configuraci&oacute;n ha sido actualizada"
+
+#: kommiku.php:1383
+msgid "List"
+msgstr "Lista"
+
+#: kommiku.php:1384
+msgid "Settings"
+msgstr "Configuraci&oacute;n"
+
+#: kommiku.php:1387
+msgid "Ftp Dump"
+msgstr "Subir por FTP"
+
+#: kommiku.php:1391
+msgid "Scanlators"
+msgstr "Scanlators"
+
+#: kommiku.php:1394
+msgid "Categories"
+msgstr "Categor&iacute;as"
+
+#: reader.php:91
+msgid "Read the previous page"
+msgstr "Leer la p&aacute;gina anterior"
+
+#: reader.php:130
+#: reader.php:163
+msgid "Read the next page"
+msgstr "Leer la p&aacute;gina siguiente"
+
+#. Plugin Name of the plugin/theme
+msgid "Kommiku Viewer"
+msgstr "Visualizador Kommiku"
+
+#. Plugin URI of the plugin/theme
+msgid "http://dotspiral.com/kommiku/"
+msgstr "http://dotspiral.com/kommiku/"
+
+#. Description of the plugin/theme
+msgid "Kommiku is a Online Media Viewer."
+msgstr "Kommiku es un Visualizador de Media en L&iacute;nea"
+
+#. Author of the plugin/theme
+msgid "Henry Tran"
+msgstr "Henry Tran"
+
+#. Author URI of the plugin/theme
+msgid "http://dotspiral.com/"
+msgstr "http://dotspiral.com/"
+
+#~ msgid "Language:"
+#~ msgstr "Lenguaje:"
+
+#~ msgid " - Chapter %d"
+#~ msgstr "- Cap&iacute;tulo %d"

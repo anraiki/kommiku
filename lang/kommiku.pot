@@ -1,0 +1,794 @@
+# Translation of the WordPress plugin Kommiku Viewer 2.1.3 by Henry Tran.
+# Copyright (C) 2010 Henry Tran
+# This file is distributed under the same license as the Kommiku Viewer package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2010.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Kommiku Viewer 2.1.3\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/kommiku\n"
+"POT-Creation-Date: 2010-08-08 19:17+0000\n"
+"PO-Revision-Date: 2010-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: admin/category.php:72 admin/category_edit.php:26
+msgid "Category List"
+msgstr ""
+
+#: admin/category.php:80
+msgid "Name a Category"
+msgstr ""
+
+#: admin/category.php:90
+msgid "Category Name:"
+msgstr ""
+
+#: admin/category.php:94
+msgid "Category Slug:"
+msgstr ""
+
+#: admin/category.php:98 admin/list_chapter.php:62 admin/list_chapter.php:135
+#: admin/list_page.php:94 admin/list_series.php:42
+msgid "Summary:"
+msgstr ""
+
+#: admin/category.php:118 admin/list_series.php:66
+msgid "Go to a Letter"
+msgstr ""
+
+#: admin/category_edit.php:7 admin/list_chapter.php:13 admin/list_page.php:16
+#: admin/list_page_create.php:40
+msgid "Don't Do it!"
+msgstr ""
+
+#: admin/category_edit.php:10 admin/list_chapter.php:16 admin/list_page.php:19
+#: admin/list_page_create.php:43
+msgid "It's a TRAP!"
+msgstr ""
+
+#: admin/category_edit.php:13 admin/list_chapter.php:19 admin/list_page.php:22
+#: admin/list_page_create.php:46
+msgid "Why???!"
+msgstr ""
+
+#: admin/category_edit.php:16 admin/list_chapter.php:22 admin/list_page.php:25
+#: admin/list_page_create.php:49
+msgid "But I am your friend :("
+msgstr ""
+
+#: admin/category_edit.php:39
+msgid "Update?"
+msgstr ""
+
+#: admin/category_edit.php:44 admin/list_page_create.php:70
+msgid "Update"
+msgstr ""
+
+#: admin/category_edit.php:57
+msgid "Category Name"
+msgstr ""
+
+#: admin/category_edit.php:60
+msgid "Name"
+msgstr ""
+
+#: admin/category_edit.php:69 admin/list_page_create.php:144
+#: admin/settings.php:103
+msgid "Permalink:"
+msgstr ""
+
+#: admin/category_edit.php:69
+msgid "category"
+msgstr ""
+
+#: admin/category_edit.php:80 admin/category_edit.php:83
+msgid "Description"
+msgstr ""
+
+#: admin/category_edit.php:85
+msgid "Add a description of the Category"
+msgstr ""
+
+#: admin/category_edit.php:103
+msgid "Delete this Category"
+msgstr ""
+
+#: admin/delete.php:56
+msgid "Delete?! Are you sure?"
+msgstr ""
+
+#: admin/delete.php:65 admin/delete.php:79
+msgid "Are you sure you want to delete this Page?"
+msgstr ""
+
+#: admin/delete.php:69
+msgid "Are you sure you want to delete this Chapter?"
+msgstr ""
+
+#: admin/delete.php:70
+msgid "All <strong>Pages</strong> within the Chapters will all be deleted"
+msgstr ""
+
+#: admin/delete.php:74
+msgid "Are you sure you want to delete this Series?"
+msgstr ""
+
+#: admin/delete.php:75
+msgid ""
+"The <strong>Series</strong>, and <strong>ALL it's Content</strong> will all "
+"be deleted"
+msgstr ""
+
+#: admin/delete.php:88
+msgid "The Delete Button"
+msgstr ""
+
+#: admin/delete.php:94
+msgid "Delete It!"
+msgstr ""
+
+#: admin/list_chapter.php:31 admin/list_page.php:46
+#: admin/list_page_create.php:61 admin/list_series.php:17
+msgid "Series Listing"
+msgstr ""
+
+#: admin/list_chapter.php:44
+msgid "Create a Chapter"
+msgstr ""
+
+#: admin/list_chapter.php:50 admin/list_chapter.php:92 admin/list_page.php:82
+msgid "Chapter Name:"
+msgstr ""
+
+#: admin/list_chapter.php:54 admin/list_chapter.php:96 admin/list_page.php:86
+msgid "Chapter #:"
+msgstr ""
+
+#: admin/list_chapter.php:58
+msgid "Chapter Slug:"
+msgstr ""
+
+#: admin/list_chapter.php:68
+msgid "Create Chapter"
+msgstr ""
+
+#: admin/list_chapter.php:83
+msgid "Dump a Chapter"
+msgstr ""
+
+#: admin/list_chapter.php:100
+msgid "Slug:"
+msgstr ""
+
+#: admin/list_chapter.php:121
+msgid "Series Detail"
+msgstr ""
+
+#: admin/list_chapter.php:127 admin/list_series.php:34
+msgid "Series Name:"
+msgstr ""
+
+#: admin/list_chapter.php:131 admin/list_series.php:38
+msgid "Series Slug:"
+msgstr ""
+
+#: admin/list_chapter.php:140
+msgid "Author:"
+msgstr ""
+
+#: admin/list_chapter.php:144
+msgid "Illustrator:"
+msgstr ""
+
+#: admin/list_chapter.php:149
+msgid "Date Created:"
+msgstr ""
+
+#: admin/list_chapter.php:153
+msgid "Other Names:"
+msgstr ""
+
+#: admin/list_chapter.php:157
+msgid "Categories:"
+msgstr ""
+
+#: admin/list_chapter.php:161
+msgid "Read Direction:"
+msgstr ""
+
+#: admin/list_chapter.php:163
+msgid "Left to Right"
+msgstr ""
+
+#: admin/list_chapter.php:164
+msgid "Right to Left"
+msgstr ""
+
+#: admin/list_chapter.php:165
+msgid "Top to Bottom"
+msgstr ""
+
+#: admin/list_chapter.php:169
+msgid "Status: "
+msgstr ""
+
+#: admin/list_chapter.php:171 admin/list_chapter.php:186
+msgid "Unknown"
+msgstr ""
+
+#: admin/list_chapter.php:172
+msgid "Ongoing"
+msgstr ""
+
+#: admin/list_chapter.php:173
+msgid "On-Hold"
+msgstr ""
+
+#: admin/list_chapter.php:174
+msgid "Dropped"
+msgstr ""
+
+#: admin/list_chapter.php:175
+msgid "Complete"
+msgstr ""
+
+#: admin/list_chapter.php:179
+msgid "Story Type:"
+msgstr ""
+
+#: admin/list_chapter.php:181
+msgid "(_blank)"
+msgstr ""
+
+#: admin/list_chapter.php:182
+msgid "Manga"
+msgstr ""
+
+#: admin/list_chapter.php:183
+msgid "Manhwa"
+msgstr ""
+
+#: admin/list_chapter.php:184
+msgid "Manhua"
+msgstr ""
+
+#: admin/list_chapter.php:185
+msgid "Comic"
+msgstr ""
+
+#: admin/list_chapter.php:187
+msgid "Novel"
+msgstr ""
+
+#: admin/list_chapter.php:193
+msgid "Age Rating:"
+msgstr ""
+
+#: admin/list_chapter.php:197
+msgid "Series Book Cover:"
+msgstr ""
+
+#: admin/list_chapter.php:220
+msgid "Delete Series!"
+msgstr ""
+
+#: admin/list_chapter.php:235
+msgid "Chapter Listings"
+msgstr ""
+
+#: admin/list_chapter.php:247
+msgid "There are no chapters in this series."
+msgstr ""
+
+#: admin/list_page.php:34
+msgid "Chapter"
+msgstr ""
+
+#: admin/list_page.php:54 admin/list_page.php:60
+msgid "Create a Page"
+msgstr ""
+
+#: admin/list_page.php:75
+msgid "Chapter Detail"
+msgstr ""
+
+#: admin/list_page.php:90
+msgid "Chapter Slug"
+msgstr ""
+
+#: admin/list_page.php:99
+msgid "Scanlator:"
+msgstr ""
+
+#: admin/list_page.php:103
+msgid "Scanlator Slug:"
+msgstr ""
+
+#: admin/list_page.php:111
+msgid "Volume:"
+msgstr ""
+
+#: admin/list_page.php:117
+msgid "Update Chapter"
+msgstr ""
+
+#: admin/list_page.php:134
+msgid "Delete"
+msgstr ""
+
+#: admin/list_page.php:147
+msgid "Page Listing"
+msgstr ""
+
+#: admin/list_page.php:161
+msgid "There are no page in this Chapter."
+msgstr ""
+
+#: admin/list_page_create.php:27
+msgid "Publish"
+msgstr ""
+
+#: admin/list_page_create.php:78
+msgid "Publishing"
+msgstr ""
+
+#: admin/list_page_create.php:86
+msgid "Series:"
+msgstr ""
+
+#: admin/list_page_create.php:92
+msgid "Chapter:"
+msgstr ""
+
+#: admin/list_page_create.php:98
+msgid "Page #:"
+msgstr ""
+
+#: admin/list_page_create.php:119
+msgid "Delete Page!"
+msgstr ""
+
+#: admin/list_page_create.php:132 admin/list_page_create.php:135
+msgid "Title"
+msgstr ""
+
+#: admin/list_page_create.php:156
+msgid "The Page"
+msgstr ""
+
+#: admin/list_page_create.php:165
+msgid "Story"
+msgstr ""
+
+#: admin/list_page_create.php:168
+msgid "story"
+msgstr ""
+
+#: admin/list_page_create.php:170
+msgid "Add a comment, description, or summary."
+msgstr ""
+
+#: admin/list_page_create.php:176
+msgid "Wordpress Post Connect"
+msgstr ""
+
+#: admin/list_page_create.php:181
+msgid "Connect a Wordpress Post to this Page."
+msgstr ""
+
+#: admin/list_series.php:25
+msgid "Create a Series"
+msgstr ""
+
+#: admin/list_series.php:46
+msgid "Chapter-Less:"
+msgstr ""
+
+#: admin/settings.php:29
+msgid "Kommiku Settings"
+msgstr ""
+
+#: admin/settings.php:41 admin/settings.php:44
+msgid "Upload Directory"
+msgstr ""
+
+#: admin/settings.php:46
+msgid "The directory where your comics will be uploaded to."
+msgstr ""
+
+#: admin/settings.php:46
+msgid "Your comics will be uploaded to: "
+msgstr ""
+
+#: admin/settings.php:46 admin/settings.php:57
+msgid "* Do not name your Upload Directory and Permalink the Same name."
+msgstr ""
+
+#: admin/settings.php:52 admin/settings.php:55
+msgid "Permalink: Comic Base"
+msgstr ""
+
+#: admin/settings.php:57
+msgid "This is where you will view your comic."
+msgstr ""
+
+#: admin/settings.php:57
+msgid "Your current Permalinks to your Comic is:"
+msgstr ""
+
+#: admin/settings.php:57
+msgid "Slug"
+msgstr ""
+
+#: admin/settings.php:57
+msgid "* Blank  base-slug may be buggy."
+msgstr ""
+
+#: admin/settings.php:63
+msgid "Directory Index URL"
+msgstr ""
+
+#: admin/settings.php:66
+msgid "Url to Directory:"
+msgstr ""
+
+#: admin/settings.php:68
+msgid "Your current Permalinks to your Directory is:"
+msgstr ""
+
+#: admin/settings.php:69
+msgid "And:"
+msgstr ""
+
+#: admin/settings.php:70
+msgid ""
+"* This is your Directory Listing. Make sure it isn't the same as the "
+"Permalink/Upload Directory."
+msgstr ""
+
+#: admin/settings.php:76
+msgid "Skin"
+msgstr ""
+
+#: admin/settings.php:91
+msgid "The Skin or Theme for the Comic Reader."
+msgstr ""
+
+#: admin/settings.php:98
+msgid "Scanlator and Authors"
+msgstr ""
+
+#: admin/settings.php:101
+msgid "Scanlator Features:"
+msgstr ""
+
+#: admin/settings.php:103
+msgid "Have multiple authors on your Kommiku?"
+msgstr ""
+
+#: admin/settings.php:103
+msgid "This feature allows you to give proper credit to your authors."
+msgstr ""
+
+#: admin/settings.php:103
+msgid "Your authors will also get a unique page about them."
+msgstr ""
+
+#: admin/settings.php:104
+msgid "Enable this feature:"
+msgstr ""
+
+#: admin/settings.php:112
+msgid "One Story Mode"
+msgstr ""
+
+#: admin/settings.php:115
+msgid "Main Story"
+msgstr ""
+
+#: admin/settings.php:117
+msgid "This will switch Kommiku into the \"One Story\" Mode."
+msgstr ""
+
+#: admin/settings.php:117
+msgid ""
+"Type in the <strong>Main Story's slug</strong> to identify the Website's "
+"Main Story."
+msgstr ""
+
+#: admin/settings.php:117
+msgid "The Main Story's slug will be replace by the \"Comic Base\" (See Above)"
+msgstr ""
+
+#: admin/settings.php:117
+msgid "All other stories will be hidden."
+msgstr ""
+
+#: admin/settings.php:117
+msgid "Example of Permalink:"
+msgstr ""
+
+#: admin/settings.php:117
+msgid "With Chapters:"
+msgstr ""
+
+#: admin/settings.php:117
+msgid "Chapterless:"
+msgstr ""
+
+#: admin/settings.php:118
+msgid "Override the Index:"
+msgstr ""
+
+#: admin/settings.php:125
+msgid "Kommiku Api Key"
+msgstr ""
+
+#: admin/settings.php:128
+msgid "Key"
+msgstr ""
+
+#: admin/settings.php:130
+msgid "Give yourself the special features with the Kommiku Api Key!"
+msgstr ""
+
+#: admin/settings.php:130
+msgid "Only given to special people... however."
+msgstr ""
+
+#: kommiku.php:217 kommiku.php:219
+msgid "Search Results for: "
+msgstr ""
+
+#: kommiku.php:234
+msgid "Dead page is Dead."
+msgstr ""
+
+#: kommiku.php:237 kommiku.php:238
+msgid "Category: "
+msgstr ""
+
+#: kommiku.php:240
+msgid "OMG! 404?! "
+msgstr ""
+
+#: kommiku.php:334
+msgid "Story Listing"
+msgstr ""
+
+#: kommiku.php:374
+msgid ""
+"The Image could not be deleted (or it doesn't exist) but the record was "
+"deleted (or maybe it was already gone?)"
+msgstr ""
+
+#: kommiku.php:379
+msgid "The Page has been deleted"
+msgstr ""
+
+#: kommiku.php:390
+msgid "The Chapter has been deleted"
+msgstr ""
+
+#: kommiku.php:404
+msgid "The Series has been deleted"
+msgstr ""
+
+#: kommiku.php:450
+msgid "The scanlator name has already been taken.<br/>"
+msgstr ""
+
+#: kommiku.php:451
+msgid "The scanlator slug has already been taken.<br/>"
+msgstr ""
+
+#: kommiku.php:484
+msgid "The category name has already been taken.<br/>"
+msgstr ""
+
+#: kommiku.php:485
+msgid "The category slug has already been taken.<br/>"
+msgstr ""
+
+#: kommiku.php:486
+msgid "The category title can not be empty<br/>"
+msgstr ""
+
+#: kommiku.php:573
+msgid "The Series has been successfully created"
+msgstr ""
+
+#: kommiku.php:593
+msgid "The Series has been renamed.<br/>"
+msgstr ""
+
+#: kommiku.php:596
+msgid "The series could not be renamed: <br/>"
+msgstr ""
+
+#: kommiku.php:600
+msgid "The Series has been updated.<br/>"
+msgstr ""
+
+#: kommiku.php:608
+msgid "The series name has already been taken.<br/>"
+msgstr ""
+
+#: kommiku.php:609
+msgid "The series slug has already been taken.<br/>"
+msgstr ""
+
+#: kommiku.php:673
+msgid "The Chapter has been successfully created"
+msgstr ""
+
+#: kommiku.php:676
+msgid ""
+"Could not create Chapter because the directory for this chapter already "
+"exist: "
+msgstr ""
+
+#: kommiku.php:680
+msgid "The Chapter has been successfully updated"
+msgstr ""
+
+#: kommiku.php:690
+msgid "The Chapter number has already been taken.<br/>"
+msgstr ""
+
+#: kommiku.php:691
+msgid "The Chapter number has to be in decimals or numbers.<br/>"
+msgstr ""
+
+#: kommiku.php:692
+msgid "The \"Volume Input\" must be Numeric"
+msgstr ""
+
+#: kommiku.php:807
+msgid "Error 1: Could not move file"
+msgstr ""
+
+#: kommiku.php:810
+msgid "No file were uploaded. But a page was created."
+msgstr ""
+
+#: kommiku.php:818
+msgid "The Image/Page has been updated"
+msgstr ""
+
+#: kommiku.php:825
+msgid " | Image moved!"
+msgstr ""
+
+#: kommiku.php:827
+msgid " | Image Failed!"
+msgstr ""
+
+#: kommiku.php:834
+msgid "<br/>No such Wordpress Post"
+msgstr ""
+
+#: kommiku.php:842
+msgid "The Page number has already been taken.<br/>"
+msgstr ""
+
+#: kommiku.php:843
+msgid "The Page number has to be in decimals or numbers.<br/>"
+msgstr ""
+
+#: kommiku.php:844
+msgid "The Slug for the Page on this Chapter has already been taken"
+msgstr ""
+
+#: kommiku.php:845
+msgid "There was no file to upload"
+msgstr ""
+
+#: kommiku.php:846
+msgid "The file is too large"
+msgstr ""
+
+#: kommiku.php:847
+msgid "The file couldn't be moved!? Please check permission on your folders"
+msgstr ""
+
+#: kommiku.php:897 kommiku.php:983
+msgid "A widget that lists the Stories under the Kommiku plugin."
+msgstr ""
+
+#: kommiku.php:903
+msgid "Kommiku: Story Lister"
+msgstr ""
+
+#: kommiku.php:962
+msgid "Example"
+msgstr ""
+
+#: kommiku.php:962
+msgid "John Doe"
+msgstr ""
+
+#: kommiku.php:967 kommiku.php:1057
+msgid "Title:"
+msgstr ""
+
+#: kommiku.php:989
+msgid "Kommiku: Chapter Lister"
+msgstr ""
+
+#: kommiku.php:1052
+msgid "Kommiku Chapter Updates"
+msgstr ""
+
+#: kommiku.php:1061
+msgid "How many updates to show?"
+msgstr ""
+
+#: kommiku.php:1214
+msgid "The 'Upload Directory' you are trying to rename already exist."
+msgstr ""
+
+#: kommiku.php:1223
+msgid "Your skin has been updated"
+msgstr ""
+
+#: kommiku.php:1227
+msgid "The skin does not exist"
+msgstr ""
+
+#: kommiku.php:1230
+msgid "Your Settings has been updated"
+msgstr ""
+
+#: kommiku.php:1383
+msgid "List"
+msgstr ""
+
+#: kommiku.php:1384
+msgid "Settings"
+msgstr ""
+
+#: kommiku.php:1387
+msgid "Ftp Dump"
+msgstr ""
+
+#: kommiku.php:1391
+msgid "Scanlators"
+msgstr ""
+
+#: kommiku.php:1394
+msgid "Categories"
+msgstr ""
+
+#: reader.php:91
+msgid "Read the previous page"
+msgstr ""
+
+#: reader.php:130 reader.php:163
+msgid "Read the next page"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Kommiku Viewer"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "http://dotspiral.com/kommiku/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Kommiku is a Online Media Viewer."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Henry Tran"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://dotspiral.com/"
+msgstr ""
