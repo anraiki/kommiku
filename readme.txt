@@ -11,27 +11,25 @@ Stable tag: 2.8
 
 A Online Media viewer. A plug-in that creates pages that can be used as a Manga, Comic, Movie, or Novel Viewer or a Portfolio. To simply put, Kommiku aims to be the ultimate media viewer.
 
-= Will not work on Windows Server! =
-
 Main Support site: http://thetosho.com/
 
 == Installation ==
-* Note: As is the case when installing any new plugin, it's always a good idea to backup your blog data before installing.*
+* Note: As is the case when installing any new plugin, it's always a good idea to backup your data before installing.*
 
 * Note 2: Kommiku uses some extensive URL Rewriting. It may not work on a Windows Server!
 
-1. After downloading the Kommiku plugin, unpack and upload the folder, "kommiku", to the wp-content/plugins folder on your blog. Make sure to leave the directory structure of the archive intact so that all of the Kommiku files are located in 'wp-content/plugins/kommiku/'
+1. After downloading the Kommiku plugin, unpack and upload the folder, "kommiku", to the wp-content/plugins folder on your blog. Make sure to leave the directory structure of the archive intact so that all of the Kommiku files are located in 'wp-content/plugins/kommiku/'
 
 2. Make sure your "Permalink for Wordpress" are not the default permalink. Change it to "Day and Name" or "Numeric" but not Default.
 
-3. Activate the plugin. And you should be good to go :)
+3. Create your pages
 
 -  For additional clarification, please check [Installing Kommiku](http://dotspiral.com/wiki/index.php?title=Installation "Installing Kommiku") at [dotSpiral](http://dotspiral.com/)
 
 
 == Upgrade Notice ==
-= 2.1.16 =
-Download your Theme Folder before upgrading. Then upload your Themes into the new "_kommiku" folder.
+= 2.* =
+If you are upgrading from 2.0, there's no hope. This is armageddon for anyone upgrading. Don't do it.
 
 If there are any problems please email me: anri.tora@gmail.com 
 
@@ -58,18 +56,13 @@ When you create a zip file. Make sure there are only images in that zip file. Th
 
 
 == Changelog ==
-= 2.2.x =
--  Please check my [Kommiku Update Log](http://dotspiral.com/wiki/index.php?title=updates "Changelog of Recent Updates for Kommiku") at [dotSpiral](http://dotspiral.com/)
-
-
-== Upgrade Notice ==
-= 2.1 =
-Backup your theme folder if it's called "default". Things are going to change drastically in this version.
+= 2.x =
+I don't remember. It's been forever.
 
 
 == Support ==
 Credit
-(c) 2008-2011 Henry Tran
+(c) 2008-2015 Henry Tran
 
 Many thanks to Ngallery for sharing their code.
 And many other plugins as well.
@@ -78,7 +71,7 @@ If you run into a bug (I am calling them kittens), report them to me. I will tak
 
 * Language: English, Spanish
 
-Demo sites: [The Tosho](http://thetosho.com/ "Anime, Manga, and Comic Library"), [Eslend](http://eslend.com/ "Eslend: a web-manga | a web-comic"), [Eclipse Scanlation](http://eclipse-scans.net/eso/ "Eclipse Scanlators")
+Demo sites: [Eslend](http://eslend.com/ "Eslend: a web-manga | a web-comic")
 
 Stuck? Need further assistance? Have a Question? Want to do something Advance? Check out the [Wiki](http://dotspiral.com/wiki/index.php?title=Main_Page "Kommiku Wiki")!
 

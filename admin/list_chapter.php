@@ -80,45 +80,6 @@ $scanlator = get_option('kommiku_scanlator_enabled');
 					</div>
 				</div>
 				</form>
-				<?php if(file_exists(KOMMIKU_ABSPATH.'extension/dumper.php')){ ?>
-				<form method="post" action="admin.php?page=kommiku&sub=listchapter&series=<?php echo $series['id'];?>" name="post" enctype="multipart/form-data">
-				<input type="hidden" value="<?php echo $series['id'];?>" name="series_id"/>					
-				<input type="hidden" value="dump" name="action"/>
-				<input type="hidden" value="chapter" name="what"/>	
-				<input type="hidden" value="chapter" name="destination"/>		
-					<div class="postbox">
-						<h3 style="cursor: default;"><span><?php _e('Dump a Chapter', 'kommiku')?></span></h3>
-						<div class="inside">
-							<div class="submitbox">
-								<div style="background: none;">
-									<div style="margin-bottom: 10px;">
-										<div class="misc-pub-section ">
-											<input type="file" name="zip" size="30" tabindex="1" value="" autocomplete="off" style="background: rgb(238, 238, 238) none repeat scroll 0% 0%; width: 100%; -moz-background-clip: border; -moz-background-origin: padding; -moz-background-inline-policy: continuous;"/>
-										</div>
-										<div class="misc-pub-section ">
-											<span <?php if($chapter['fail']['title'])echo 'style="color: #ff0000;"'; ?>><?php _e('Chapter Name:', 'kommiku')?></span> <input name="title" type="text" value="<?php echo $chapter['title']; ?>" style="width: 150px; float: right; text-align: left;" />
-											<div class="clear"></div> 
-										</div>
-										<div class="misc-pub-section ">
-											<span <?php if($chapter['fail']['number'])echo 'style="color: #ff0000;"'; ?>><?php _e('Chapter #:', 'kommiku')?></span> <input name="number" type="text" value="<?php echo $chapter['number'];?>" style="width: 150px; float: right; text-align: left;" />
-											<div class="clear"></div> 
-										</div>
-										<div class="misc-pub-section ">
-											<span <?php if($chapter['fail']['slug'])echo 'style="color: #ff0000;"'; ?>><?php _e('Slug:', 'kommiku')?></span> <input name="slug" type="text" value="<?php echo $chapter['slug']; ?>" style="width: 150px; float: right; text-align: left;" />
-											<div class="clear"></div> 
-										</div>
-									</div>
-								</div>
-								<div class="clear"></div>
-								<div style="width: 100%; float: right; text-align: right">
-									<input type="submit" value="Dump it!" accesskey="p" tabindex="5" class="button-primary" name="chapter_createchapter_create"/>
-								</div>
-								<div class="clear"></div>
-							</div>					
-						</div>
-					</div>
-				</form>
-				<?php } ?>
 				<form method="post" enctype="multipart/form-data" action="admin.php?page=kommiku&sub=listchapter&series=<?php echo $series['id'];?>" name="post">
 				<input type="hidden" value="<?php echo $series['id'];?>" name="series_id"/>
 				<input type="hidden" value="update" name="action"/>
