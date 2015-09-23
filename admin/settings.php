@@ -139,8 +139,6 @@
 					</div>
 				</div>
 			</div>
-		
-		<?php if(file_exists(KOMMIKU_FOLDER.'/extension/scanlator/scanlator.php')){ ?>
 			<div class="postbox">
 				<h3 style="cursor: default;"><span><?php _e('Scanlator and Authors', 'kommiku')?></span></h3>
 				<div class="inside">
@@ -152,9 +150,7 @@
 
 					</div>
 				</div>
-			</div>
-		<?php } ?>
-                    
+			</div>  
 			<div class="postbox">
 				<h3 style="cursor: default;"><span><?php _e('One Story Mode', 'kommiku')?></span></h3>
 				<div class="inside">
@@ -167,27 +163,7 @@
 					</div>
 				</div>
 			</div>
-			
-			<div class="postbox" style="display: none;">
-				<h3 style="cursor: default;"><span><?php _e('View Counter System', 'kommiku')?></span></h3>
-				<div class="inside">
-					<div class="submitbox" style="padding: 5px;">
-						<p style="margin-top: 0;"><?php _e('Record each visit for each Page and Series read. Enabling this feature may slow down page load.', 'kommiku')?><br/><?php _e('* Enabling this feature may slow down page load.', 'kommiku')?></p>
-						<span style="font-style: italic;"><?php _e('Enable this feature:', 'kommiku')?></span> <input type="checkbox"<?php echo $checkboxOverThree?>  value="1" name="counter_enable"/>
-					</div>
-				</div>
-			</div>
-			
-			<div class="postbox" style="display: none;">
-				<h3 style="cursor: default;"><span><?php _e('5 Star Rating System', 'kommiku')?></span></h3>
-				<div class="inside">
-					<div class="submitbox" style="padding: 5px;">
-						<p style="margin-top: 0;"><?php _e('Allow the viewers or readers to rate the Page, Series, or Chapters', 'kommiku')?><br/><?php _e('* Enabling this feature may slow down page load.', 'kommiku')?></p>
-						<span style="font-style: italic;"><?php _e('Enable this feature:', 'kommiku')?></span> <input type="checkbox"<?php echo $checkboxOverFour?>  value="1" name="rating_enable"/>
-					</div>
-				</div>
-			</div>
-			
+
 			<div class="postbox">
 				<h3 style="cursor: default;"><span><?php _e('Tableless Page', 'kommiku')?></span></h3>
 				<div class="inside">
