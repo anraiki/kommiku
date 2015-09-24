@@ -7,6 +7,7 @@ Description: Kommiku is a Online Media Viewer.
 Author: Henry Tran
 Author URI: http://dotspiral.com/
 Text Domain: kommiku
+Domain Path: /lang/
 */ 
 define('KOMMIKU_VERSION', '3.0' );
 
@@ -1312,10 +1313,16 @@ function add_rewrite_rules($aRules) {
     return $aRules;
 }
 
-add_action('init', 'k_flush_rewrite_rules');
-function k_flush_rewrite_rules() {
+add_action('init', 'kommiku_init');
+function kommiku_init() {
+	kommiku_load_plugin_textdomain();
     flush_rewrite_rules();
-    return;
+	
+    do_action( 'kommiku_init' );
+}
+
+function kommiku_load_plugin_textdomain() {
+	load_plugin_textdomain( 'kommiku', false, 'kommiku/lang' );
 }
 
 add_filter( 'query_vars', 'k_query_vars' );
