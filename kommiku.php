@@ -1194,18 +1194,18 @@ function kommiku_install() {
 	$attribute[$table] = array('id' => 'int(9) NOT NULL AUTO_INCREMENT',
 				'title' => 'varchar(100) NOT NULL',
 				'slug' => 'varchar(100) NOT NULL',
-				'summary' => 'text NOT NULL',
-				'chapterless' => 'tinyint(1) NOT NULL',
-				'categories' => 'text NOT NULL',
-				'author' => 'varchar(32) NOT NULL',
-				'illustrator' => 'varchar(32) NOT NULL',
-				'read' => 'int(1) NOT NULL',
-				'creation' => 'varchar(32) NOT NULL',
-				'alt_name' => 'text NOT NULL',
-				'status' => 'int(1) NOT NULL',
-				'rating' => 'int(1) NOT NULL',
-				'type' => 'int(1) NOT NULL',
-				'img' => 'varchar(255) NOT NULL');
+				'summary' => 'text NULL',
+				'chapterless' => 'tinyint(1) NULL',
+				'categories' => 'text NULL',
+				'author' => 'varchar(32) NULL',
+				'illustrator' => 'varchar(32) NULL',
+				'read' => 'int(1) NULL',
+				'creation' => 'varchar(32) NULL',
+				'alt_name' => 'text NULL',
+				'status' => 'int(1) NULL',
+				'rating' => 'int(1) NULL',
+				'type' => 'int(1) NULL',
+				'img' => 'varchar(255) NULL');
 	$columns[$table] = array_keys($attribute[$table]);
 	
 	$table = 'comic_counter';		
@@ -1222,13 +1222,13 @@ function kommiku_install() {
 	$attribute[$table] = array('id' => 'INT(9) NOT NULL AUTO_INCREMENT',
 				'title' => 'VARCHAR(100) NOT NULL',
 				'number' => 'INT(5) NOT NULL',
-				'summary' => 'TEXT NOT NULL',
+				'summary' => 'TEXT NULL',
 				'series_id' => 'INT(9) NOT NULL',
-				'pubdate' => 'VARCHAR(30) NOT NULL',
+				'pubdate' => 'VARCHAR(30) NULL',
 				'slug' => 'VARCHAR(100) NOT NULL',
-				'scanlator' => 'VARCHAR(100) NOT NULL',
-				'scanlator_slug' => 'VARCHAR(100) NOT NULL',
-				'volume' => 'int(3) NOT NULL',
+				'scanlator' => 'VARCHAR(100) NULL',
+				'scanlator_slug' => 'VARCHAR(100) NULL',
+				'volume' => 'int(3) NULL',
 				'folder' => 'VARCHAR(100) NOT NULL');
 	$columns[$table] = array_keys($attribute[$table]);
 	
@@ -1236,10 +1236,10 @@ function kommiku_install() {
 	$attribute[$table] = array('id' => 'BIGINT(20) NOT NULL AUTO_INCREMENT',
 				'title' => 'VARCHAR(100) NOT NULL',
 				'slug' => 'VARCHAR(100) NOT NULL',
-				'img' => 'VARCHAR(255) NOT NULL',
-				'pubdate' => 'VARCHAR(30) NOT NULL',
+				'img' => 'VARCHAR(255) NULL',
+				'pubdate' => 'VARCHAR(30) NULL',
 				'number' => 'int(3) NOT NULL',
-				'story' => 'TEXT NOT NULL',
+				'story' => 'TEXT NULL',
 				'series_id' => 'INT(9) NOT NULL',
 				'chapter_id' => 'INT(9) NOT NULL',
 				'wp_post_slug' => 'VARCHAR(160) NOT NULL');
@@ -1249,7 +1249,7 @@ function kommiku_install() {
 	$attribute[$table] = array('id' => 'INT(3) NOT NULL AUTO_INCREMENT',
 				'title' => 'VARCHAR( 32 ) NOT NULL',
 				'slug' => 'VARCHAR( 32 ) NOT NULL',
-				'summary' => 'TEXT NOT NULL');
+				'summary' => 'TEXT NULL');
 	$columns[$table] = array_keys($attribute[$table]);
 	
 	$table = 'comic_scanlator';		
