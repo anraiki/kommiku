@@ -1241,7 +1241,7 @@ function kommiku_install() {
 				'number' => 'int(3) NOT NULL',
 				'story' => 'TEXT NULL',
 				'series_id' => 'INT(9) NOT NULL',
-				'chapter_id' => 'INT(9) NOT NULL',
+				'chapter_id' => 'INT(9) NULL',
 				'wp_post_slug' => 'VARCHAR(160) NOT NULL');
 	$columns[$table] = array_keys($attribute[$table]);
 	
