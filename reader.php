@@ -154,9 +154,9 @@ if(($isPage)) {
 
 	function img($echo = true,$class = NULL,$title = NULL,$showall = NULL) {
 		global $nextPage, $nextLink, $series, $chapter, $page, $kommiku;
-		
+				
 		if($chapter["folder"]) {
-			$url = $chapter["folder"];	
+			$url = '/'.$series["slug"].'/'.$chapter["folder"].'/';	
 		} else if($series['chapterless'] != 0) {
 			$url = '/'.$series["slug"].'/';
 		} else {
@@ -165,13 +165,13 @@ if(($isPage)) {
 		
 		$theimage = UPLOAD_URLPATH.$url.$page["img"];
 		$theimage_abs = UPLOAD_FOLDER.$url.$page["img"];
-
+		
 		if(file_exists($theimage_abs) && $echo == true) {
 			$wrapper = '<img src="'.$theimage.'" />';
 		} else {
 			return $theimage;	
 		}
-		
+
 		if($showall == true) {
 			foreach($kommiku['pageLists'] as $pageNumber){
 				$chapterImages .= '<img src="'.UPLOAD_URLPATH.$url.$kommiku['pageSource'][$pageNumber].'" />';

@@ -434,7 +434,7 @@ Class kommiku_database {
 	
 	}
 	
-	function series_create($title, $slug, $summary = '', $chapterless, $categories,$author,$illustrator,$read,$creation = '',$alt_name = '', $status = 'ongoing', $rating = 0,$story_type = 0,$img = '') {
+	function series_create($title, $slug, $summary = '', $chapterless = true, $categories,$author,$illustrator,$read,$creation = '',$alt_name = '', $status = 'ongoing', $rating = 0,$story_type = 0,$img = '') {
 	    global $wpdb;
 			
 		$table = $wpdb->prefix."comic_series";
